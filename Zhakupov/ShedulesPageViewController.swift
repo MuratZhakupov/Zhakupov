@@ -8,7 +8,6 @@
 
 import UIKit
 import Alamofire
-import SVProgressHUD
 
 class ShedulesPageViewController: UIPageViewController, UIPageViewControllerDelegate {
     
@@ -26,7 +25,7 @@ class ShedulesPageViewController: UIPageViewController, UIPageViewControllerDele
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        //SVProgressHUD.show()
+        
         print("Start App")
         let appearance = UIPageControl.appearance(whenContainedInInstancesOf: [UIPageViewController.self])
         appearance.pageIndicatorTintColor = UIColor.red

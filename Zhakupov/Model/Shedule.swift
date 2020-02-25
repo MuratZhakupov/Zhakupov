@@ -19,6 +19,7 @@ struct Shedule: Codable {
     var weekDay: Int
 }
 
+
 class ShedulesListForSave: Codable {
     
     var list: [Shedule] = [Shedule]()

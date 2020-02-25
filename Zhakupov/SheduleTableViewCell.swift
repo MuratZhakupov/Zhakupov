@@ -20,7 +20,6 @@ class SheduleTableViewCell: UITableViewCell {
     
     @IBOutlet weak var roomLabel: UILabel!
     
-    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
