@@ -3,19 +3,28 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		063E05E3E79B039D5EBB7F9B /* Pods_Zhakupov.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 338EB9A37AE833BE503CA49B /* Pods_Zhakupov.framework */; };
 		FB6A4982240537C6007CA2BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6A4981240537C6007CA2BF /* AppDelegate.swift */; };
 		FB6A4984240537C6007CA2BF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6A4983240537C6007CA2BF /* SceneDelegate.swift */; };
 		FB6A4986240537C6007CA2BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6A4985240537C6007CA2BF /* ViewController.swift */; };
 		FB6A4989240537C6007CA2BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB6A4987240537C6007CA2BF /* Main.storyboard */; };
 		FB6A498B240537CE007CA2BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB6A498A240537CE007CA2BF /* Assets.xcassets */; };
 		FB6A498E240537CE007CA2BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB6A498C240537CE007CA2BF /* LaunchScreen.storyboard */; };
+		FB6A499624053E2B007CA2BF /* ShedulesPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6A499524053E2B007CA2BF /* ShedulesPageViewController.swift */; };
+		FB6A49992405453B007CA2BF /* Shedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6A49982405453B007CA2BF /* Shedule.swift */; };
+		FB6A499B24054FC7007CA2BF /* SheduleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6A499A24054FC7007CA2BF /* SheduleTableViewController.swift */; };
+		FB6A499D240565EE007CA2BF /* SheduleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6A499C240565EE007CA2BF /* SheduleTableViewCell.swift */; };
+		FB6A499F2405CB87007CA2BF /* Connectivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB6A499E2405CB87007CA2BF /* Connectivity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0BAFDB9583C2AF8D13F3F59B /* Pods-Zhakupov.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zhakupov.debug.xcconfig"; path = "Target Support Files/Pods-Zhakupov/Pods-Zhakupov.debug.xcconfig"; sourceTree = "<group>"; };
+		338EB9A37AE833BE503CA49B /* Pods_Zhakupov.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Zhakupov.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D6334E3031D99F6D09B82DF /* Pods-Zhakupov.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zhakupov.release.xcconfig"; path = "Target Support Files/Pods-Zhakupov/Pods-Zhakupov.release.xcconfig"; sourceTree = "<group>"; };
 		FB6A497E240537C6007CA2BF /* Zhakupov.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zhakupov.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB6A4981240537C6007CA2BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FB6A4983240537C6007CA2BF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +33,11 @@
 		FB6A498A240537CE007CA2BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FB6A498D240537CE007CA2BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FB6A498F240537CE007CA2BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB6A499524053E2B007CA2BF /* ShedulesPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShedulesPageViewController.swift; sourceTree = "<group>"; };
+		FB6A49982405453B007CA2BF /* Shedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shedule.swift; sourceTree = "<group>"; };
+		FB6A499A24054FC7007CA2BF /* SheduleTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheduleTableViewController.swift; sourceTree = "<group>"; };
+		FB6A499C240565EE007CA2BF /* SheduleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheduleTableViewCell.swift; sourceTree = "<group>"; };
+		FB6A499E2405CB87007CA2BF /* Connectivity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Connectivity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +45,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				063E05E3E79B039D5EBB7F9B /* Pods_Zhakupov.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9521742F3E35E9B63B90ED36 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				338EB9A37AE833BE503CA49B /* Pods_Zhakupov.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FB6A4975240537C6007CA2BF = {
 			isa = PBXGroup;
 			children = (
 				FB6A4980240537C6007CA2BF /* Zhakupov */,
 				FB6A497F240537C6007CA2BF /* Products */,
+				FC9BA457E9F0CE5DB48A8DB2 /* Pods */,
+				9521742F3E35E9B63B90ED36 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +81,7 @@
 		FB6A4980240537C6007CA2BF /* Zhakupov */ = {
 			isa = PBXGroup;
 			children = (
+				FB6A49972405452B007CA2BF /* Model */,
 				FB6A4981240537C6007CA2BF /* AppDelegate.swift */,
 				FB6A4983240537C6007CA2BF /* SceneDelegate.swift */,
 				FB6A4985240537C6007CA2BF /* ViewController.swift */,
@@ -63,8 +89,29 @@
 				FB6A498A240537CE007CA2BF /* Assets.xcassets */,
 				FB6A498C240537CE007CA2BF /* LaunchScreen.storyboard */,
 				FB6A498F240537CE007CA2BF /* Info.plist */,
+				FB6A499524053E2B007CA2BF /* ShedulesPageViewController.swift */,
+				FB6A499A24054FC7007CA2BF /* SheduleTableViewController.swift */,
+				FB6A499C240565EE007CA2BF /* SheduleTableViewCell.swift */,
 			);
 			path = Zhakupov;
+			sourceTree = "<group>";
+		};
+		FB6A49972405452B007CA2BF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FB6A499E2405CB87007CA2BF /* Connectivity.swift */,
+				FB6A49982405453B007CA2BF /* Shedule.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FC9BA457E9F0CE5DB48A8DB2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0BAFDB9583C2AF8D13F3F59B /* Pods-Zhakupov.debug.xcconfig */,
+				7D6334E3031D99F6D09B82DF /* Pods-Zhakupov.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +121,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FB6A4992240537CE007CA2BF /* Build configuration list for PBXNativeTarget "Zhakupov" */;
 			buildPhases = (
+				3F2750AEDF6186D44F1FB4F1 /* [CP] Check Pods Manifest.lock */,
 				FB6A497A240537C6007CA2BF /* Sources */,
 				FB6A497B240537C6007CA2BF /* Frameworks */,
 				FB6A497C240537C6007CA2BF /* Resources */,
+				88E8A75E6350366F16FBA598 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,13 +182,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3F2750AEDF6186D44F1FB4F1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Zhakupov-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		88E8A75E6350366F16FBA598 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Zhakupov/Pods-Zhakupov-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Zhakupov/Pods-Zhakupov-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Zhakupov/Pods-Zhakupov-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FB6A497A240537C6007CA2BF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB6A499B24054FC7007CA2BF /* SheduleTableViewController.swift in Sources */,
+				FB6A499624053E2B007CA2BF /* ShedulesPageViewController.swift in Sources */,
 				FB6A4986240537C6007CA2BF /* ViewController.swift in Sources */,
 				FB6A4982240537C6007CA2BF /* AppDelegate.swift in Sources */,
+				FB6A499F2405CB87007CA2BF /* Connectivity.swift in Sources */,
+				FB6A49992405453B007CA2BF /* Shedule.swift in Sources */,
+				FB6A499D240565EE007CA2BF /* SheduleTableViewCell.swift in Sources */,
 				FB6A4984240537C6007CA2BF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +378,7 @@
 		};
 		FB6A4993240537CE007CA2BF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BAFDB9583C2AF8D13F3F59B /* Pods-Zhakupov.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -291,7 +388,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.murat.Zhakupov;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.murat.FitnessKitTestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -300,6 +397,7 @@
 		};
 		FB6A4994240537CE007CA2BF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D6334E3031D99F6D09B82DF /* Pods-Zhakupov.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -309,7 +407,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.murat.Zhakupov;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.murat.FitnessKitTestApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
